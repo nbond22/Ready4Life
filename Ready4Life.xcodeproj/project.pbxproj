@@ -11,6 +11,10 @@
 		BDA736042C04E6AE00964EA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA736032C04E6AE00964EA0 /* ContentView.swift */; };
 		BDA736062C04E6B000964EA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA736052C04E6B000964EA0 /* Assets.xcassets */; };
 		BDA736092C04E6B000964EA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDA736082C04E6B000964EA0 /* Preview Assets.xcassets */; };
+		BDA736102C04E75600964EA0 /* R4LColleges.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA7360F2C04E75600964EA0 /* R4LColleges.swift */; };
+		BDA736122C04E76400964EA0 /* R4LCareers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA736112C04E76400964EA0 /* R4LCareers.swift */; };
+		BDA736142C04E77500964EA0 /* R4LQuizzes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA736132C04E77500964EA0 /* R4LQuizzes.swift */; };
+		BDA736162C04E78A00964EA0 /* R4LSavedSnippets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA736152C04E78A00964EA0 /* R4LSavedSnippets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		BDA736032C04E6AE00964EA0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDA736052C04E6B000964EA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDA736082C04E6B000964EA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDA7360F2C04E75600964EA0 /* R4LColleges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R4LColleges.swift; sourceTree = "<group>"; };
+		BDA736112C04E76400964EA0 /* R4LCareers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R4LCareers.swift; sourceTree = "<group>"; };
+		BDA736132C04E77500964EA0 /* R4LQuizzes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R4LQuizzes.swift; sourceTree = "<group>"; };
+		BDA736152C04E78A00964EA0 /* R4LSavedSnippets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R4LSavedSnippets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				BDA736012C04E6AE00964EA0 /* Ready4LifeApp.swift */,
 				BDA736032C04E6AE00964EA0 /* ContentView.swift */,
+				BDA7360F2C04E75600964EA0 /* R4LColleges.swift */,
+				BDA736112C04E76400964EA0 /* R4LCareers.swift */,
+				BDA736132C04E77500964EA0 /* R4LQuizzes.swift */,
+				BDA736152C04E78A00964EA0 /* R4LSavedSnippets.swift */,
 				BDA736052C04E6B000964EA0 /* Assets.xcassets */,
 				BDA736072C04E6B000964EA0 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDA736162C04E78A00964EA0 /* R4LSavedSnippets.swift in Sources */,
+				BDA736102C04E75600964EA0 /* R4LColleges.swift in Sources */,
 				BDA736042C04E6AE00964EA0 /* ContentView.swift in Sources */,
+				BDA736122C04E76400964EA0 /* R4LCareers.swift in Sources */,
 				BDA736022C04E6AE00964EA0 /* Ready4LifeApp.swift in Sources */,
+				BDA736142C04E77500964EA0 /* R4LQuizzes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +288,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Ready4Life/Preview Content\"";
+				DEVELOPMENT_TEAM = 7T9P336DT4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Ready4Life/Preview Content\"";
+				DEVELOPMENT_TEAM = 7T9P336DT4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
